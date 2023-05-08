@@ -1,4 +1,3 @@
-https://giphy.com/gifs/8u9luggH4RmHsLbpqS
 
 # Ocean Point
 
