@@ -14,11 +14,11 @@ from ocean-point import SelAreaMap
 
 dataset_path = "../data/ETOPO1_Bed_g_gmt4.grd"
 
-Escolha uma região: ['nordeste','sudeste','sul']
+# Escolha uma região: ['nordeste','sudeste','sul']
 
 region = 'sudeste'
-mapa = SelPointMap(dataset_path, region)
-
+mapa = SelAreaMap(dataset_path, region)
+```
 
 ## SelAreaMap
 
@@ -30,5 +30,5 @@ A classe `SelPointMap` permite criar um mapa interativo que exibe a batimetria d
 from ocean-point import SelPointMap
 
 mapa = SelPointMap('"../data/ETOPO1_Bed_g_gmt4.grd"', region='sudeste')
-
+```
 
