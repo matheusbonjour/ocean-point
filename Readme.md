@@ -1,3 +1,5 @@
+![](gif-ocean-point.gif)
+
 # Ocean Point
 
 Este repositório contém duas classes para criar mapas interativos usando Python e a biblioteca Cartopy. As classes permitem selecionar uma área ou ponto no mapa através de eventos de clique do mouse. Selecionar ponto (lon, lat) ou área (lon_min, lon_max, lat_min, lat_max).
