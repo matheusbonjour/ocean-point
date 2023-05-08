@@ -1,21 +1,13 @@
-# Etapa 2: Importar módulos e bibliotecas
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import matplotlib.pyplot as plt
 import cartopy.mpl.ticker as cticker
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 import numpy as np
-
-import xarray as xr # Importa o modulo xarray para leitura dos dados NetCDF e criação de objetos xarray
-import matplotlib.pyplot as plt # Importa o modulo matplotlib para criação de gráficos
-import cartopy.crs as ccrs # Importa o modulo cartopy para criação de mapas
-import cartopy.feature as cfeature # Importa o modulo cartopy para criação de mapas com recursos adicionais
-import cmocean.cm as cmo # Importa o modulo cmocean para criação de mapas de cores específicos para oceanografia 
-import numpy as np # Importa o modulo numpy para manipulação de arrays
-from cartopy.mpl.gridliner import LONGITUDE_FORMATTER, LATITUDE_FORMATTER # Importa o modulo cartopy.mpl.gridliner para criação de eixos com escalas específicas
-import geopandas as gpd # Importa o modulo geopandas para leitura dos dados shapefile e criação de objetos geopandas
-import os # Importa o modulo os para manipulação de arquivos e diretórios
-import time
+import xarray as xr
+import cmocean.cm as cmo
+from matplotlib.patches import Patch, Rectangle
+import os
 
 class SelPointMap:
     def __init__(self, dataset_path, region):
