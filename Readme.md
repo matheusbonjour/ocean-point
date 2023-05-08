@@ -48,3 +48,5 @@ Para utilizar as classes, siga os passos abaixo:
 - Traduzir tudo para inglês
 - Salvar lat e lon em um .csv ou .txt
 - Problema com o arquivo da batimetria muito pesado (talvez baixar na hora de acordo com a solicitação do usuário)
+
+Essa é minha primeira tentativa de disponibilizar um pacote para outros oceanógrafos... sugestões são bem vindas! :)
