@@ -32,3 +32,9 @@ from ocean-point import SelPointMap
 mapa = SelPointMap('"../data/ETOPO1_Bed_g_gmt4.grd"', region='sudeste')
 ```
 
+Para utilizar as classes, siga os passos abaixo:
+
+- Instale as dependências necessárias, como Cartopy, Matplotlib, xarray e outras mencionadas no código.
+- Faça o download do arquivo de dados da batimetria e coloque-o no diretório indicado.
+- Adapte os exemplos de uso fornecidos para as classes SelAreaMap e SelPointMap de acordo com suas necessidades e  regiões de interesse.
+- Execute o script Python e interaja com o mapa gerado para selecionar a área ou o ponto desejado.
