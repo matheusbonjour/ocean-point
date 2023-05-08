@@ -1,4 +1,4 @@
-![](gif-ocean-point.gif)
+![](gif-ocean-point2.gif)
 
 # Ocean Point
 
