@@ -8,6 +8,16 @@ A ideia é facilitar a aquisição das coordenadas lat e lon de um ponto ou uma 
 
 Essa rotina é parte das rotinas que uso para desenvolvimento da minha dissertação de mestrado. 
 
+## Dados de Batimetria
+
+Baixe os dados de batimetria usados nessa rotina através do link:
+https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid_registered/netcdf/
+
+Clique no:
+
+"ETOPO1_Bed_g_gmt4.grd.gz" 
+
+e adicione no diretório "data"
 
 ## SelAreaMap
 
