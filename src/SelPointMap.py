@@ -8,6 +8,7 @@ import xarray as xr
 import cmocean.cm as cmo
 from matplotlib.patches import Patch, Rectangle
 import os
+import pandas as pd 
 
 class SelPointMap:
     def __init__(self, dataset_path, region):
@@ -84,14 +85,20 @@ class SelPointMap:
     
     def get_lat_lon(self):
         return self.coords
+    
+    def save_coords(self, filepath):
+        df = pd.DataFrame(self.coords, columns=['longitude', 'latitude'])
+        df.to_csv(filepath, index=False)
 
 
-# Definir o diretório de trabalho
+
 dataset_path = "../data/ETOPO1_Bed_g_gmt4.grd"
+
+#dataset_path_teste = "../../Desktop/Matheus/Rotinas_Dissertacao/rotinas_dissertacao/ETOPO1_Bed_g_gmt4.grd"
 
 region = input("Escolha uma região: ['nordeste','sudeste','sul'] \nMinha região é: ")
 
 # Executar função
 mapa = SelPointMap(dataset_path, region)
 
-coords = mapa.get_lat_lon()
+coords = mapa.save_coords('../data/coords.csv')
