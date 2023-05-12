@@ -3,3 +3,5 @@ Baixe os dados de batimetria usados nessa rotina através do link: https://www.n
 Clique no:
 
 "ETOPO1_Bed_g_gmt4.grd.gz"
+
+Extraia o arquivo .grd para essa pasta
